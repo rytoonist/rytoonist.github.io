@@ -459,8 +459,8 @@ label.in_nv_ln + label.in_nv_ln {
 
   /* Main Header */
   .hd {
-    margin: 1rem 0 1.5rem;
-    padding: 0 0 1rem
+    margin: 0 0 1.5rem;
+    padding: 1rem 0
   }
   
   .hd_tl { margin: 0 2rem }
