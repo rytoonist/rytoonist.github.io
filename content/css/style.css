@@ -460,13 +460,13 @@ label.in_nv_ln + label.in_nv_ln {
   /* Main Header */
   .hd {
     margin: 1rem 0 1.5rem;
-    border-bottom: none
+    padding: 0 0 1rem
   }
   
   .hd_tl { margin: 0 2rem }
   
   .hd_nv {
-    margin: 0 3.5rem 0 0;
+    margin: 0 2rem 0 0;
     padding: 0
   }
   
