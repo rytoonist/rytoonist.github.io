@@ -24,7 +24,7 @@ p {
 
 * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0) }
 
-.material-icons {
+.material-symbols-outlined {
   line-height: 1em;
   vertical-align: middle;
   font-size: 1em
@@ -73,12 +73,12 @@ p {
 .bn:focus,
 .bn:hover { background: #1e376e }
 
-.bn .material-icons {
+.bn .material-symbols-outlined {
   margin: 0 .33em 0 0;
   font-size: 1.5em
 }
 
-.bn .material-icons,
+.bn .material-symbols-outlined,
 .bn p {
   display: inline-block;
   font-weight: 500;
@@ -111,7 +111,7 @@ p {
   cursor: pointer
 }
 
-.hd_nv .material-icons {
+.hd_nv .material-symbols-outlined {
   display: block;
   font-size: 1em
 }
@@ -203,7 +203,7 @@ p {
   margin-left: .5em
 }
 
-.pg_nv .mn_pg_nv .material-icons { font-size: 1.5em }
+.pg_nv .mn_pg_nv .material-symbols-outlined { font-size: 1.5em }
 
 .pg_nv .mn_pg_nv-pg1 { margin-left: 32rem }
 .pg_nv .mn_pg_nv:last-child { margin-right: 0 }
@@ -335,8 +335,8 @@ a:hover .pg_gd_tn_if,
   font-size: .625em
 }
 
-.pg_gd_dn_pc .material-icons,
-.pg_gd_dn_dn .material-icons {
+.pg_gd_dn_pc .material-symbols-outlined,
+.pg_gd_dn_dn .material-symbols-outlined {
   position: absolute;
   top: 0;
   left: -3.5rem;
@@ -416,10 +416,10 @@ a:hover .pg_gd_tn_if,
   vertical-align: middle
 }
 
-.in_ct a .material-icons,
-.in_nv a .material-icons,
-.in_ct label .material-icons,
-.in_nv label .material-icons { font-size: 1.375em }
+.in_ct a .material-symbols-outlined,
+.in_nv a .material-symbols-outlined,
+.in_ct label .material-symbols-outlined,
+.in_nv label .material-symbols-outlined { font-size: 1.375em }
 
 a.in_nv_ic,
 label.in_nv_ic {
@@ -471,7 +471,7 @@ label.in_nv_ln + label.in_nv_ln {
   color: #69728f
 }
 
-.gn_nt .material-icons,
+.gn_nt .material-symbols-outlined,
 .gn_nt [class^="socicon-"],
 .gn_nt [class*=" socicon-"] {
   position: absolute;
@@ -481,7 +481,7 @@ label.in_nv_ln + label.in_nv_ln {
   font-size: 2.4rem
 }
 
-.gn_nt-bg .material-icons,
+.gn_nt-bg .material-symbols-outlined,
 .gn_nt-bg [class^="socicon-"],
 .gn_nt-bg [class*=" socicon-"] { margin-left: 1.5rem }
 
