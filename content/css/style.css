@@ -24,6 +24,7 @@ p {
 
 * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0) }
 
+.brands,
 .material-symbols-outlined {
   line-height: 1em;
   vertical-align: middle;
@@ -472,8 +473,7 @@ label.in_nv_ln + label.in_nv_ln {
 }
 
 .gn_nt .material-symbols-outlined,
-.gn_nt [class^="socicon-"],
-.gn_nt [class*=" socicon-"] {
+.gn_nt .brands {
   position: absolute;
   top: 50%;
   left: 0;
@@ -482,8 +482,7 @@ label.in_nv_ln + label.in_nv_ln {
 }
 
 .gn_nt-bg .material-symbols-outlined,
-.gn_nt-bg [class^="socicon-"],
-.gn_nt-bg [class*=" socicon-"] { margin-left: 1.5rem }
+.gn_nt-bg .brands { margin-left: 1.5rem }
 
 .gn_nt a {
   text-decoration: none;
