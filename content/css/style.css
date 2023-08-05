@@ -223,7 +223,14 @@ p {
   width: 31.9148936%;
   flex: 0 0 31.9148936%;
   margin: 2rem 0 0;
+  overflow: hidden;
+  border-radius: 1.2rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .10)
+}
+
+.pg_gd_tn a {
+  text-decoration: none;
+  color: inherit
 }
 
 .pg_gd_tn img {
@@ -231,6 +238,26 @@ p {
   width: 100%;
   height: auto;
   background: #FFF
+}
+
+.pg_gd_tn_if {
+  display: block;
+  padding: 1.25rem 1.5rem;
+  background: #6c728e;
+  border-radius: 0 0 1rem 1rem;
+  color: #FFF
+}
+
+.pg_gd_tn_if_tl,
+.pg_gd_tn_if_dn {
+  display: block;
+  line-height: 1.4em;
+  font-size: 1.4rem
+}
+
+.pg_gd_tn_if_tl {
+  font-weight: bold;
+  font-size: 1.6rem
 }
 
 .pg_gd_dn {
@@ -487,6 +514,7 @@ label.in_nv_ln + label.in_nv_ln {
     width: 33.1555%;
     flex: 0 0 33.1555%;
     margin: 0 0 1px;
+    border-radius: 0;
     box-shadow: none
   }
   
@@ -494,6 +522,10 @@ label.in_nv_ln + label.in_nv_ln {
     display: block;
     width: 100%;
     height: auto
+  }
+
+  .pg_gd_tn_if {
+    display: none
   }
   
   .pg_gd_dn {
